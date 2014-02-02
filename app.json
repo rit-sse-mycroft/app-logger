@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "name": "logger",
+    "displayName": "Logger",
+    "instanceId": "logger",
+    "capabilities": {
+        "log": "0.0.1"
+    },
+    "API": "0",
+    "description": "Logs stuff",
+    "dependencies": {}
+}

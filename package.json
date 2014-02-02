@@ -1,0 +1,22 @@
+{
+  "name": "app-logger",
+  "version": "0.0.0",
+  "description": "Logging app for mycroft",
+  "main": "logger.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rit-sse-mycroft/app-logger.git"
+  },
+  "author": "Society of Software Engineers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rit-sse-mycroft/app-logger/issues"
+  },
+  "homepage": "https://github.com/rit-sse-mycroft/app-logger",
+  "devDependencies": {
+    "mocha": "~1.16.2"
+  }
+}
