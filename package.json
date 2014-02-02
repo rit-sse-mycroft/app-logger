@@ -20,6 +20,7 @@
     "mocha": "~1.16.2"
   },
   "dependencies": {
-    "winston": "~0.7.2"
+    "winston": "~0.7.2",
+    "socket.io": "~0.9.16"
   }
 }
