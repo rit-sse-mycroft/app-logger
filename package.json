@@ -18,5 +18,8 @@
   "homepage": "https://github.com/rit-sse-mycroft/app-logger",
   "devDependencies": {
     "mocha": "~1.16.2"
+  },
+  "dependencies": {
+    "winston": "~0.7.2"
   }
 }
