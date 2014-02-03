@@ -25,7 +25,7 @@ client.on('MSG_BROADCAST', function(data){
   io.sockets.emit('log', data.content);
 });
 
-io.sockets.on('connection' function(socket){
+io.sockets.on('connection', function(socket){
   socket.emit('initial logs', logs);
 });
 

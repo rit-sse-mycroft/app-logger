@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "winston": "~0.7.2",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "zeparser": "0.0.7"
   }
 }
