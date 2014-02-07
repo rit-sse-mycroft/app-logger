@@ -4,18 +4,6 @@ var logs = [];
 var port = 7777;
 var io = require('socket.io').listen(port);
 
-client.on('APP_MANIFEST_OK', function(data){
-  client.appManifestOk();
-});
-
-client.on('APP_MANIFEST_FAIL', function(data){
-  client.appManifestFail();
-});
-
-client.on('MSG_GENERAL_FAILURE', function(data){
-  client.msgGeneralFailure(data);
-});
-
 client.on('APP_DEPENDENCY', function(data){
   client.up();
 });
