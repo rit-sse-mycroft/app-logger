@@ -1,5 +1,5 @@
-var mycroft = require('./mycroft.js');
-var client = mycroft.Mycroft('app.json', 'localhost', 1847);
+var mycroft = require('mycroft');
+var client = mycroft.Mycroft('logger', 'app.json', 'localhost', 1847);
 var logs = [];
 var port = 7777;
 var io = require('socket.io').listen(port);
